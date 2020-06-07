@@ -1,3 +1,21 @@
+/* Меню */
+const menuBtn = document.querySelector("#menu_btn");
+const menuList = document.querySelector("#menu_list");
+
+menuBtn.addEventListener('click',function(event){
+    menuList.classList.toggle('navbar_menu_list_active')
+});
+
+
+
+
+
+
+
+
+
+
+
 /*Кнопки*/
 const linkBlock1 = document.querySelector(".item_1");
 const linkBlock2 = document.querySelector(".item_2");
